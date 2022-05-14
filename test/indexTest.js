@@ -90,3 +90,18 @@ describe("index.js", () => {
     expect(nestedPartner).to.equal("Miss Piggy")
   })
 })
+
+const nestedMuppet = {
+  nestedName: 'Kermit',
+  nestedColor: 'green',
+  album: {
+    theMuppetMovie: {
+      song1: 'Rainbow Connection',
+      song2: 'Moving Right Along',
+      song3: 'Never Before, Never Again',
+      song4: 'I Hope That Something Better Comes Along',
+    },
+  },
+  nestedJob: 'Host of The Muppet Show',
+  nestedPartner: 'Miss Piggy'
+};
